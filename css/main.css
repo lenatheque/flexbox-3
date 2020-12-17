@@ -97,8 +97,9 @@ textarea {
 
 /*Large Background Image*/
 html {
-  background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+  background: url(../img/bg3.jpg) no-repeat center center fixed;
   height: 100%;
+  
    /* set height to 100% - these are important for allowing content to vertically align */
 }
 
@@ -120,14 +121,13 @@ body {
 
 #content {
   /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
- background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
-  color: #fff;
+background-image: linear-gradient(to right, #434343 0%, black 100%);
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 1.25em;
   line-height: 1.5em;
   border-radius: 10px;
-  padding: 0px 30px;
+  padding: 30px;
   width: 300px;
   height: 300px;
   display: flex;
@@ -200,7 +200,7 @@ body {
  *
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
+ *    `content editable` attribute is included anywhere else in the document.
  *    Otherwise it causes space to appear at the top and bottom of elements
  *    that receive the `clearfix` class.
  * 2. The use of `table` rather than `block` is only necessary if using
