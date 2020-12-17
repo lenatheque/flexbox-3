@@ -130,12 +130,14 @@ background-color:#000;
   font-size: 1.25em;
   line-height: 1.5em;
   border-radius: 10px;
-  padding: 30px;
+  padding: 40px;
   width: 300px;
   height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: visible;
+
 }
 
 #content p span {
