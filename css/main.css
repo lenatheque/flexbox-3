@@ -11,7 +11,8 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    background-color: #000;
+    color: #ffffff;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -99,6 +100,7 @@ textarea {
 html {
   background: url(../img/bg3.jpg) no-repeat center center fixed;
   height: 100%;
+  background-color: #000;
   
    /* set height to 100% - these are important for allowing content to vertically align */
 }
@@ -117,11 +119,12 @@ body {
   align-items: center;
   justify-content: center;
 
+
 }
 
 #content {
   /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
-background-image: linear-gradient(to right, #434343 0%, black 100%);
+background-color:#000;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 1.25em;
